@@ -44,3 +44,12 @@ cacheSolve <- function(x) {
   
 }
 
+## Test method
+##x<-matrix(c(1,2,2,1), nrow=2, ncol=2)
+##y<-makeCacheMatrix(x)
+##y$get()
+##y$getInverse()
+##z<-cacheSolve(y)
+##z
+##test<-cacheSolve(y)
+
